@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            Free shipping on orders over $100
+        </div>
+        <nav class="main-nav">
+            <a href="#" class="logo">Elegance Boutique</a>
+            <div class="nav-links">
+                <a href="#shop">Shop</a>
+                <a href="#collections">Collections</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">🌓</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="shop">
+            <div class="hero-content">
+                <h1>Discover Your Style</h1>
+                <p>Explore our latest collection of premium fashion</p>
+                <a href="#shop" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-products" id="collections">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <div class="product-info">
+                        <h3 class="product-title">Classic White Blouse</h3>
+                        <p class="product-price">$89.99</p>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- To be done another date -->
+                        <!-- <img src="denim.jpeg" alt=""> -->
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Designer Denim Jeans</h3>
+                        <p class="product-price">$129.99</p>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <div class="product-info">
+                        <h3 class="product-title">Leather Crossbody Bag</h3>
+                        <p class="product-price">$199.99</p>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <div class="product-info">
+                        <h3 class="product-title">Summer Floral Dress</h3>
+                        <p class="product-price">$149.99</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="about.jpg" alt="About Us">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">About Us</h2>
+                    <p>
+                        Welcome to our website! We are committed to providing top-quality products and services 
+                        tailored to meet your needs. Our journey started with a passion for excellence, and we 
+                        take pride in creating meaningful experiences for our customers.
+                    </p>
+                    <p>
+                        Whether you're exploring our offerings or seeking support, we're here to help. 
+                        Your satisfaction is our priority, and we constantly strive to exceed expectations.
+                    </p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>📍 123 Fashion Street, Style City, ST 12345</p>
+                    <p>📞 (555) 123-4567</p>
+                    <p>✉️ info@eleganceboutique.com</p>
+                    <p>⏰ Monday - Saturday: 10:00 AM - 8:00 PM</p>
+                    <p>Sunday: 12:00 PM - 6:00 PM</p>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <div class="social-links-grid">
+                        <a href="#" class="social-link">
+                            📱 Instagram
+                        </a>
+                        <a href="#" class="social-link">
+                            👥 Facebook
+                        </a>
+                        <a href="#" class="social-link">
+                            🐦 Twitter
+                        </a>
+                        <a href="#" class="social-link">
+                            📌 Pinterest
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#women">Women</a></li>
+                    <li><a href="#men">Men</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                    <li><a href="#sale">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get special offers, free giveaways, and updates.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" style="padding: 8px; margin: 10px 0; width: 100%;">
+                    <button type="submit" class="btn" style="width: 100%;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; <span id="current-year"></span> Elegance Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
